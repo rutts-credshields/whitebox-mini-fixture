@@ -1,0 +1,20 @@
+{
+  "name": "whitebox-mini-fixture",
+  "version": "0.1.0",
+  "private": false,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/store.js && node --check src/workflows.js"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "sqlite3": "5.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
